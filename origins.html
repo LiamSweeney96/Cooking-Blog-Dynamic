@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+    <html lang="en-GB">
+    
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    
+    
+
+    <title>
+        Cooking Blog
+    </title>
+
+    <div id="body">
+        <div class="jumbotron">
+
+            <h1 style="font-size: 80px;"><b>The Cooking Blog</b></h1>
+
+        </div>
+    
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+
+
+                <br>
+
+                <div id="page-navigation">
+                    <a href="Home.html"><b>Home</b></a> | <a href="Risotto.html"><b>Risotto</b></a> | <a href="TomKha.html"><b>Tom Kha Soup</b></a> | <a href="PastaCarbonara.html"><b>Pasta Carbonara</b></a> | <a href="Dhal.html"><b>Lentil Dhal</b></a> 
+                </div>
+            <hr class="rounded">
+        </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+
+                
+                
+                <div id="page-title">
+                    <b>Origins of Each Dish!</b>
+                </div> 
+
+                <p> Click on the button below to get your current location. Zoom out on the map to see how close you are to where each dish originated!</p>
+
+                <button type="button" onclick="getlocation()">Get Your Location!</button>     
+
+            </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+
+            <div id="map" class="center" style="width: 500px; height: 500px;"></div>
+
+            <hr class="rounded">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6" style="border-bottom: 4px solid black;">
+
+            <div id="page-footer">
+                <p>Thank you for visiting my website!</p>
+            </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="geolocation.js"></script>
+    
+    </div>
+</html>
